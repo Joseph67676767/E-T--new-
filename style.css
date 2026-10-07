@@ -8,7 +8,7 @@ body {
   color: hsl(0, 0%, 0%);
 }
 header {
-  background: linear-gradient(120deg, #04AA6D, #058457);
+  background: linear-gradient(120deg, #27147f, #368ee1);
   color: #fff;
   padding: 60px 20px;
   text-align: center;
@@ -33,6 +33,15 @@ section {
   margin: 0 auto 24px;
   border-radius: 10px;
 }
+.about-image {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 16px auto 0;
+  border: 3px solid #21169b;
+  border-radius: 10px;
+}
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -43,4 +52,30 @@ section {
 }
 section h2 {
   margin-top: 0;
+  color: hsl(0, 0%, 0%);
+}
+a {
+  color: #21169b;
+  text-decoration: none;
+}
+a:hover {
+  color: #d6d2ec;
+  text-decoration: underline;
+}
+a:focus-visible {
+  outline: 2px solid #21169b;
+  outline-offset: 3px;
+}
+blockquote {
+  margin: 0;
+  padding: 12px 20px;
+  border-left: 4px solid #21169b;
+  background: #f1faf6;
+}
+blockquote p {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
 }
